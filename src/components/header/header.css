@@ -1,0 +1,36 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: calc(100% - 64px);
+	height: 56px;
+	padding: 0 32px;
+}
+
+.header h3 {
+	font-size: 18px;
+	color: #B5226E;
+}
+
+.header__dropdown {
+	height: 32px;
+	border: 2px solid #B5226E;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.header__dropdown label {
+	font-size: 10px;
+	padding: 5px;
+}
+
+.header__dropdown select {
+	border-radius: 0px;
+   	background: #B5226E;
+ 	border: 0px;
+   	font-size: 10px;
+   	height: 32px;
+   	color: white;
+   	outline: 1px solid #B5226E; 
+   	outline-offset: -1px
+}
